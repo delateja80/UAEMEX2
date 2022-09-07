@@ -1,5 +1,4 @@
 package figuras;
-
 public class Triangulo extends Figura{
     private double lado3;
     private double area;
