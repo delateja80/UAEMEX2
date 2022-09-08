@@ -1,4 +1,4 @@
-public class Estudiante extends Persona {
+public class Estudiante extends Persona implements IntAlumno1,IntAlumno2{
     String noCuenta;
     String curso;
     String calificacion;
@@ -40,5 +40,25 @@ public class Estudiante extends Persona {
         System.out.println("no de Cuenta: "+noCuenta);
         System.out.println("Curso: "+curso);
         System.out.println("calificación: "+calificacion);
+    }
+
+    @Override
+    public void mostrarCurso() {
+        System.out.println("curso: ");
+    }
+
+    @Override
+    public void mostrarGrado() {
+
+    }
+
+    @Override
+    public int obtenerAnnosdeCarrera() {
+        return 0;
+    }
+
+    @Override
+    public void entrarCurso() {
+
     }
 }

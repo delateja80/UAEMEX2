@@ -1,7 +1,7 @@
 package figuras;
 
 public abstract class Figura {
-
+    private int lados;
     public abstract double calcularArea();
     public abstract double calcularPerimetro();
 
